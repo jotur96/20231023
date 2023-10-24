@@ -231,16 +231,13 @@ body {
         margin-left: 1rem;
     }
 
-    .nav-buttons button {
-        /* margin: 1rem 0; */
-    }
 
     .button-secondary {
         width: 100%; 
     }
 
     .main {
-        margin-top: 12rem;
+        margin-top: 14rem;
         width: 100vw;
         height: 100vh;
         flex-direction: column;
