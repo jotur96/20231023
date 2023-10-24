@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Playpen Sans', cursive;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 1rem;
 }
 
 .header-logo {
@@ -73,6 +73,7 @@ body {
     background: none;
     border-style: none;
     cursor: pointer;
+    margin-right: 1rem;
 }
 
 .button-primary:hover {
@@ -80,7 +81,7 @@ body {
 }
 
 .material-symbols-outlined{
-    margin-right: 10px;
+    margin-right: 0.5rem;
   }
 
 .button-secondary {
@@ -89,9 +90,9 @@ body {
     font-weight: bolder;
     background-color: #ff9901;
     border: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 0.4rem;
     color: #000000;
-    padding: 8px 20px;
+    padding: 0.4rem 1.5rem;
     cursor: pointer;
 }
 
@@ -106,7 +107,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
+    padding: 1.5rem 5%;
 }
 
 .section-left {
@@ -154,7 +155,7 @@ body {
 }
 
 .section-items span {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 10px;
 }
 
@@ -196,3 +197,83 @@ body {
     padding-left: 50%;
 }
 
+
+@media (max-width: 468px) {
+
+    .header {
+        width: 100vw;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+    .header-logo {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .nav {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    
+    .nav a {
+        margin: 1rem 0;
+    }
+
+    .nav-buttons {
+        width:50vw;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .nav-buttons button {
+        /* margin: 1rem 0; */
+    }
+
+    .button-secondary {
+        width: 100%; 
+    }
+
+    .main {
+        margin-top: 12rem;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .section-left-top{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section-left-top h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        padding: 1rem 0;
+    }
+
+    .section-left-top p {
+        padding: 1rem 0;
+    }
+
+    .section-left-bot{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    
+}
