@@ -10,12 +10,13 @@ body {
     line-height: 1.5;
     display: flex;
     flex-direction: column;
+    background-image: url('../images/background.webp');
+    background-size: cover;
 }
 
 .header {
     width: 100vw;
     height: 15vh;
-    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,14 +104,12 @@ body {
     width: 100vw;
     height: 70vh;
     display: flex;
-    background-color: #01ff01;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
 }
 
 .section-left {
-    background-color: #939493;
     width: 50%;
     height: 100%;
     display: flex;
@@ -164,22 +163,36 @@ body {
 }
 
 .section-right {
-    background-color: #35b9ca;
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
+    margin-right: 10%;
 }
 
 .footer {
     width: 100vw;
     height: 15vh;
-    background-color: #3001ff;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    justify-content: flex-end;
+    align-items: center; 
 }
+
+.footer button {
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    border-style: none;
+    width: 60px; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer button span {
+    padding-left: 50%;
+}
+
