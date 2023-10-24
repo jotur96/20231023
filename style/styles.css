@@ -83,6 +83,7 @@ body {
   }
 
 .button-secondary {
+    width: fit-content;
     font-family:  'Playpen Sans', cursive;
     font-weight: bolder;
     background-color: #ff9901;
@@ -105,7 +106,7 @@ body {
     background-color: #01ff01;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px 5%;
 }
 
 .section-left {
@@ -116,7 +117,22 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 10%;
+}
+
+.section-left-top {
+    width: 100%;
+    height: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.section-left-top h1 {
+    font-size: 2rem;
 }
 
 .section-right {
