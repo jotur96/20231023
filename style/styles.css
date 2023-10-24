@@ -23,16 +23,21 @@ body {
     padding: 0 20px;
 }
 
-.header_logo {
+.header-logo {
     display:flex;
     width: 50%;
     padding-left: 10%;
     align-items: center;
 }
 
-.header_name {
+.header-name {
     font-size: smaller;
     padding-left: 2%;
+}
+
+.header-title {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .nav {
