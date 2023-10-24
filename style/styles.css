@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: black; */
 }
 
 body {
@@ -58,10 +57,17 @@ body {
     color: #96949c;
 }
 
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
 .button-primary {
-    display: inline-block;
-    padding-top: 1%;
+    display: flex;
     text-decoration: none;
+    align-items: center;
     font-family:  'Playpen Sans', cursive;
     background: none;
     border-style: none;
@@ -73,8 +79,7 @@ body {
 }
 
 .material-symbols-outlined{
-    vertical-align: middle;
-    padding-bottom: 3%;
+    margin-right: 10px;
   }
 
 .button-secondary {
@@ -85,9 +90,12 @@ body {
     border-radius: 5px;
     color: #000000;
     padding: 8px 20px;
-    margin-top: 0.4%;
-    text-align: center;
     cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .main {
